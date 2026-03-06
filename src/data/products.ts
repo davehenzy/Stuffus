@@ -1,0 +1,138 @@
+import type { Product, Category, Filter } from '@/types';
+
+export const categories: Category[] = [
+  { id: 'all', name: 'All Product', count: 62 },
+  { id: 'home', name: 'For Home' },
+  { id: 'music', name: 'For Music' },
+  { id: 'phone', name: 'For Phone' },
+  { id: 'storage', name: 'For Storage' },
+];
+
+export const filters: Filter[] = [
+  { id: 'new', name: 'New Arrival' },
+  { id: 'best', name: 'Best Seller' },
+  { id: 'discount', name: 'On Discount' },
+];
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Phone Holder Sakti',
+    price: 29.90,
+    category: 'Other',
+    rating: 5.0,
+    reviews: 1200,
+    image: '/assets/asset_2.png',
+  },
+  {
+    id: '2',
+    name: 'Headsound',
+    price: 12.00,
+    category: 'Music',
+    rating: 5.0,
+    reviews: 1200,
+    image: '/assets/asset_3.png',
+  },
+  {
+    id: '3',
+    name: 'Adudu Cleaner',
+    price: 29.90,
+    category: 'Other',
+    rating: 4.4,
+    reviews: 1000,
+    image: '/assets/asset_4.png',
+  },
+  {
+    id: '4',
+    name: 'CCTV Maling',
+    price: 50.00,
+    category: 'Home',
+    rating: 4.8,
+    reviews: 120,
+    image: '/assets/asset_5.png',
+  },
+  {
+    id: '5',
+    name: 'Stuffus Peker 32',
+    price: 9.90,
+    category: 'Other',
+    rating: 5.0,
+    reviews: 2400,
+    image: '/assets/asset_6.png',
+  },
+  {
+    id: '6',
+    name: 'Stuffus R175',
+    price: 34.10,
+    category: 'Music',
+    rating: 4.8,
+    reviews: 2400,
+    image: '/assets/asset_7.png',
+  },
+  {
+    id: '7',
+    name: 'Pro Mouse X1',
+    price: 45.00,
+    category: 'Other',
+    rating: 4.9,
+    reviews: 800,
+    image: '/assets/product_mouse.png',
+  },
+  {
+    id: '8',
+    name: 'Smart Watch V2',
+    price: 129.00,
+    category: 'Other',
+    rating: 4.7,
+    reviews: 2000,
+    image: '/assets/product_watch.png',
+  },
+  {
+    id: '9',
+    name: 'Bass Speaker Pro',
+    price: 79.00,
+    category: 'Music',
+    rating: 4.6,
+    reviews: 500,
+    image: '/assets/product_speaker.png',
+  },
+];
+
+export const recommendedProducts: Product[] = [
+  {
+    id: 'r1',
+    name: 'TWS Bujug',
+    price: 29.90,
+    category: 'Other',
+    rating: 5.0,
+    reviews: 1200,
+    image: '/assets/asset_8.png',
+  },
+  {
+    id: 'r2',
+    name: 'Headsound Baptis',
+    price: 12.00,
+    category: 'Music',
+    rating: 5.0,
+    reviews: 1200,
+    image: '/assets/asset_9.png',
+  },
+  {
+    id: 'r3',
+    name: 'Adudu Cleaner',
+    price: 29.90,
+    category: 'Other',
+    rating: 4.4,
+    reviews: 1000,
+    image: '/assets/asset_4.png',
+  },
+  {
+    id: 'r4',
+    name: 'Grand Piano Elite',
+    price: 2999.00,
+    category: 'Music',
+    rating: 5.0,
+    reviews: 50,
+    image: '/assets/asset_10.png',
+  },
+];
